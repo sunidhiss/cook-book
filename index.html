@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥘 What's In My Fridge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="chef-header">
+    <span class="chef-hat">🍳</span>
+    <h1>What's In My Fridge?</h1>
+    <p class="tagline">Your digital sous-chef for creative cooking</p>
+  </header>
+  <main class="container modern-page">
+    <section class="ingredients-section">
+      <h2>Enter Your Ingredients</h2>
+      <p>Type what you have and let the chef suggest recipes:</p>
+      <div class="search">
+        <input type="text" id="ingredientInput" placeholder="e.g. eggs, bread, cheese">
+        <button id="searchBtn">Find Recipes</button>
+      </div>
+    </section>
+    <p id="thinking" class="thinking"></p>
+    <section id="recipeList" class="recipes"></section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
